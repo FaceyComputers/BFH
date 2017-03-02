@@ -78,6 +78,7 @@ h3 {
 
 .underline{
     font-size: 18px;
+    border: 1px
 }
 
 @media (max-width: 768px) {
@@ -180,7 +181,7 @@ h1{
     background-color: #004D85;
     margin-left: 24%;
     margin-right: 5%;
-    margin-top: 100px;
+    margin-top: 110px;
     text-align: justify;
     padding: 10px 10px 16px 13px;
     position: absolute;
@@ -189,6 +190,7 @@ h1{
 @media (max-width: 1120px) {
     .Desktop > .Top-introduction > .Description{
     margin-left: 33%;
+    margin-top: 84px;
     margin-right: 5%;
 }
 }
@@ -205,7 +207,7 @@ h1{
 
 .Comments{
     text-align: left;
-    margin: 430px 50px 0 110px; /*360px sets comments below the picture*/
+    margin: 360px 50px 0 10%; /*360px sets comments below the picture*/
 }
 
 
@@ -258,7 +260,7 @@ h1{
 .dropdown-submenu > .dropdown-menu a:hover{
     color: white;
     background-color: #004D85;
-    transition: 0.3s;
+    transition: 0.2s;
  }
 
 .navbar-default .navbar-nav > .open > a, 
@@ -365,7 +367,7 @@ h1{
     
 .Mobile .navbar .navbar-nav {
     margin-bottom: -2px;
-  text-align: center;
+    text-align: center;
 }
     
 #asdf li {
@@ -382,14 +384,14 @@ h1{
     }
     
     #tests{
-      padding: 20px 0 0 0;
+      padding: 19px 0 1px 0;
     }
     
 .Desktop > .Top-introduction{
     text-align: center;
 }  
     
-    .Desktop > .Top-introduction > .Image{
+.Desktop > .Top-introduction > .Image{
     margin: 0;
     padding: 0;
     margin-top: 100px;
@@ -475,7 +477,7 @@ h1{
 }
 
 #fdsa div li ul li a:hover{
-    transition: 0.5px;
+    transition: 0.2s;
     color: white;
 }
 
