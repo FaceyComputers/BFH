@@ -169,7 +169,7 @@ h1{
      }
 
 .Mobile{
-        visibility: hidfden;
+        visibility: hidden;
         display: none;
     }
 
@@ -179,7 +179,7 @@ h1{
 
 .Desktop > .Top-introduction > .Description{
     background-color: #004D85;
-    margin-left: 24%;
+    margin-left: 27%;
     margin-right: 5%;
     margin-top: 110px;
     text-align: justify;
