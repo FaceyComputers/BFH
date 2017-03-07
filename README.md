@@ -1,2 +1,5 @@
 # BFH
 Final Draft of BFH Open House Website
+
+<h1>Please use this link to get to the website</h1>
+<h2><a href = "https://ha0511kr.github.io/BFH/pages/index.html">https://ha0511kr.github.io/BFH/pages/index.html</a></h2>
