@@ -41,6 +41,14 @@
 
 }
 
+#Map_1{
+    
+}
+
+#Map_1:active{
+    transform: scale(2);
+}
+
 #Top_Title {
 font-family: "ERAS";
  font-size: 50px;
