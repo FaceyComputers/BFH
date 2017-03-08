@@ -42,10 +42,12 @@
 }
 
 #Map_1{
-    
+    transition: -webkit-transform 0.25s ease;
+    transition: transform 0.25s ease;
 }
 
-#Map_1:active{
+#Map_1:focus{
+    -webkit-transform: scale(2);
     transform: scale(2);
 }
 
