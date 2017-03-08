@@ -131,9 +131,9 @@ function setHeightStudent()
     }
 }
 
-$(document).bind('mobileinit', function(){ 
+/*$(document).bind('mobileinit', function(){ 
     $.mobile.metaViewportContent = 'width=device-width'; 
-}); 
+});*/ 
 
 /*$(document).bind('mobileinit', function(){ 
     $.mobile.metaViewportContent = 'width=device-width, minimum-scale=1, maximum-scale=2'; 
