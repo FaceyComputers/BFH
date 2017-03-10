@@ -40,15 +40,35 @@ function onClick() {
 }
 
 function Setup() {
-    "use strict";
-    var string = document.getElementsByClassName('active')[0].innerHTML;
-    var int = string.search(">");
-    string = string.substr(int + 1);
-    int = string.search("<");
-    string = string.substring(int, -1);
-    document.title = string + " | Bev Facey Open House";
+    //"use strict";
+    alert("tes");
+    
+    //var string = document.getElementsByClassName('active')[0].innerHTML;
+    //var int = string.search(">");
+    //string = string.substr(int + 1);
+    //int = string.search("<");
+    //string = string.substring(int, -1);
+    //document.title = string + " | Bev Facey Open House";
+    
+var visits = GetCookie("counter");
+
+if (!visits) { visits = 1;
+
+alert("test");
+
+}
+
+else {
+
+visits = parseInt(visits) + 1;
+
+alert("test" + visits);
     
 }
+    
+}
+
+setCookie("counter", visits,expdate);
 
 function setHeight(text) {
     "use strict";
